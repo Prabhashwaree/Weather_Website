@@ -1,19 +1,45 @@
-
 <div class="container">
 
   <div class="uper_data">
 
-<!-- <img src="../assets/hot.webp" *ngIf="14 > 15">
-<img src="../assets/cool.jpg" *ngIf="14 <= 15"> -->
+    <img src="../assets/hot.webp" *ngIf="14 > 15">
+    <img src="../assets/cold.jpg" *ngIf="14 <= 15">
+
+    <div class="weather-data">
+
+      <div class="location">Wellington</div>
+      <div class="temperature">{{14.40 | number: '1.0-0'}}°C</div>
+
+
+    </div>
 
   </div>
 
 
   <div class="lower_data">
 
+    <div class="mor-info-label">
+      More Information
+    </div>
+    <div class="more-info-container">
+      <div class="info-block">
+        <div class="info-block-label">
+          <img src="">
+          <span>min</span>
+
+        </div>
+
+        <div class="info-block-value">
+          10°C
+
+        </div>
+
+      </div>
+
+
+    </div>
 
   </div>
 
 
 </div>
-
